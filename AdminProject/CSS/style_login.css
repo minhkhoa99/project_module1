@@ -1,0 +1,103 @@
+/* header */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.background-section{
+    display: flex;
+    background-image:url('https://img6.thuthuatphanmem.vn/uploads/2022/02/12/background-3d-chat-lu_100423661.jpg') ;
+    width: 100%;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+}
+.background-section .container{
+    width: 1200px;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    color: #eddbf56b;
+    padding-bottom: 50px;
+    font-size: 2.2rem;
+}
+.login-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form-group .form-control-1{
+
+    background-color: #fff5ee29;
+    color: white;
+    padding: 10px;
+    width: 348px;
+    height: 52px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #af23ed69;
+
+}
+.form-control-1:hover{
+    border: 1px solid #ead7f369;
+    
+}
+
+
+.form-group .form-control-2{
+
+    background-color: #fff5ee29;
+    color: white;
+    padding: 10px;
+    width: 348px;
+    height: 52px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #af23ed69;
+    
+}
+.form-control-2:hover{
+    border: 1px solid #ead7f369;
+    
+    
+}
+.form-group .form-control-3{
+
+    background-color: #fff5eecc;
+    color: #af23edad;
+    padding: 10px;
+    width: 348px;
+    height: 52px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #af23ed69;
+    
+}
+.form-control-3:hover{
+    border: 1px solid #ead7f369;
+    background-color: #c1f3f3;
+    
+}
+#checkbox{
+    margin: 20px;
+    
+}
+
+#messenge{
+    display: none;
+    background-color: whitesmoke;
+    color:#09010b69 ;
+    font-weight: bold;
+}
+
+#messenge1{
+    display: none;
+    background-color: whitesmoke;
+    color:#09010b69 ;
+    font-weight: bold;
+}

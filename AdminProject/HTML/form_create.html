@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style_form.css"> -->
+    <link rel="stylesheet" href="../CSS/style_form.css" />
+    <title>segay.vn</title>
+  </head>
+  <body>
+    <div class="form-heading-input">
+      <div class="title">
+        <h1 class="title-heading"><i>CREATE MOVIE</i></h1>
+      </div>
+
+      <div class="form-header">
+        <form id="update-form" class="update-form">
+          <div class="group_form_1">
+            <div class="link-content_name">
+              <span class="name_film">Tên phim:</span>
+              <input
+                id="name"
+                type="text"
+                class="name"
+                placeholder="Nhập tên phim"
+              />
+
+              <input id="id" type="hidden" />
+            </div>
+
+            <div class="link-image">
+              <span class="name-content">Chọn ảnh:</span>
+              <input
+                id="image"
+                type="url"
+                class="image-content"
+                accept="image/png, image/jpg"
+              />
+            </div>
+            <div class="link-url">
+              <span class="url-name">Link url:</span>
+              <input
+                id="url"
+                type="text"
+                class="url-link-content"
+                placeholder="Url:https//...."
+              />
+            </div>
+
+            <div class="link-url-content">
+              <p class="url-name_content">Mô tả:</p>
+              <textarea
+                id="descrition"
+                class="url-content"
+                placeholder="Nhập nội dung mô tả"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="group_form_2">
+            <div class="name-espoide">
+              <span class="name-content">Số tập:</span>
+              <input
+                id="episode"
+                type="number"
+                class="espoide"
+                placeholder="Nhập số tập"
+              />
+            </div>
+
+            <div class="link-time">
+              <span class="time-text">Thời lượng:</span>
+              <input
+                id="time"
+                type="text"
+                class="link-time-content"
+                placeholder="Thời lượng"
+              />
+            </div>
+
+            <div class="link-star">
+              <span class="star-name">Diễn viên:</span>
+              <input
+                id="actor"
+                type="text"
+                class="link-star-content"
+                placeholder="Nhập Diễn viên"
+              />
+            </div>
+
+            <div class="link-international">
+              <span class="national-name">Quốc gia:</span>
+              <input
+                id="nation"
+                type="text"
+                class="link-text-international"
+                placeholder="Nhập Quốc gia"
+              />
+            </div>
+            <div class="category">
+              <span class="cate-name">Thể loại:</span>
+              <input
+                id="category"
+                type="text"
+                class="link-category"
+                placeholder="Nhập thể loại"
+              />
+            </div>
+
+            <div class="link-year">
+              <span class="title-years">Năm phát hành:</span>
+              <input
+                id="year"
+                type="text"
+                class="link-time-year"
+                placeholder="Nhập năm phát hành"
+              />
+            </div>
+
+            <div class="btn-create-value">
+              <button type="submit" class="btn-create">SAVE</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- <script src="./form_create.js"></script> -->
+    <script src="../JS/form_create.js"></script>
+  </body>
+</html>

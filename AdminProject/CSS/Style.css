@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.form-heading-input{
+    background-image: url('https://images7.alphacoders.com/116/thumb-1920-1165584.jpg');
+    width: 100%;
+    height: 900px;
+
+}
+.title-heading-update{
+    color: #dcaaf169;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.name-form_update{
+    margin-left: 20px;
+}
+
+.form-header_update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.title_update{
+    display: flex;
+    justify-content: center;
+   padding-top: 100px;
+    
+}
+
+.display_image_update{
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 90px;
+    border: 1px solid;
+    border-radius: 5px;
+
+
+}
+
+.link-name_film_update{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #dcaaf169;
+}
+
+
+.link_film_update{
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    background-color:rgb(250 246 247) ;
+        
+}
+
+.name-content_update{
+
+    color: rgb(218, 200, 200);
+
+}
+
+.image-content_update{
+    margin-left: 90px;
+    background-color:rgb(158, 154, 155) ;
+
+
+}
+.link-url_update{
+    margin-left: 10px;
+    margin-top: 20px;
+    
+
+}
+.url-name_update_film{
+    color: rgb(247 247 247);
+
+
+}
+.url-name_update{
+    color: rgb(247 247 247);
+
+}
+
+.url-name-update{
+    color: rgb(247 247 247);
+
+
+}
+.link-url-text_update{
+    margin-left: 10px;
+    margin-top: 20px;
+       
+}
+.url-link-content_update{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid #dcaaf169;
+    background-color:rgb(250 246 247) ;
+    
+}
+
+.url-content_update{
+    margin-left: 60px;
+    margin-top: 10px ; 
+    width: 300px;
+    height: 100px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color:rgb(250 246 247) ;
+
+}
+
+.btn-create-value_update{
+    display: flex;
+    justify-content: center;
+}
+.btn-update{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    color: black;
+    font-weight: 500;
+    background-color: rgb(214, 186, 240);
+}
+.btn-update:hover{
+background-color: blueviolet;
+transition: 0.3s;
+cursor: pointer;
+}
+.name-content-esp_update{
+    color: rgb(250 246 247);
+
+}
+.name-espoide_update{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.espoide_update{
+    margin-left: 30px;
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+    background-color:rgb(250 246 247) ;
+}
+.time-text_update{
+    color: rgb(250 246 247);
+
+
+
+}
+.link-time-content_update{
+    width: 200px;
+    height: 20px;
+    background-color:rgb(250 246 247) ;
+
+}
+.link-time_update{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.star-name_update{
+    color: rgb(218, 200, 200);
+
+}
+
+.link-star-content_update{
+    background-color:rgb(250 246 247) ;
+    width: 200px;
+    height: 20px;
+    margin-left: 10px;
+}
+.link-star_update{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.national-name_update{
+
+    color: rgb(218, 200, 200);
+
+
+}
+.link-international_update{
+    margin-left: 50px;
+    margin-top: 20px;  
+}
+.link-text-international_update{
+    background-color:rgb(250 246 247) ;
+    width: 200px;
+    height: 20px;
+    margin-left: 15px;
+
+}
+
+
+.category_update{
+    margin-left: 50px;
+    margin-top: 20px;  
+}
+.link-category_update{
+
+    background-color:rgb(250 246 247) ;
+    width: 200px;
+    height: 20px;
+    margin-left: 20px;
+
+
+}
+.cate-name_update{
+    color: rgb(218, 200, 200);
+
+}
+.link-year_update{
+    margin-left: 50px;
+    margin-top: 20px;    
+}
+.title-years_update{
+
+    color: rgb(218, 200, 200);
+
+
+}
+.link-time-year_update{
+
+    background-color:rgb(250 246 247) ;
+    height: 20px;
+}

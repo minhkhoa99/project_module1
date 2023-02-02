@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+
+    <!-- Phần của thanh 1 -->
+    <!-- header -->
+    <header class="header">
+        <div class="grid">
+            <nav class="header__navbar">
+               <ul class="header__navbar--list" >
+               
+                <li class="header__navbar--item "><a class ="header__navbar--item--doitac" href  ='https://shopee.vn/m/dang-ky-ban-hang-shopee'>VIP </a></li>
+                <li class="header__navbar--item  gachngang"></li>
+    
+                <li class="header__navbar--item header__navbar--item--hasQR">
+                   <a class ="header__navbar--item tai-ung-dung" href="#">
+                    Tải ứng dụng
+                </a> 
+                    <!-- hien QR doawnload -->
+                    <div class="header__QR_shopee ">
+                        <img src="./assets/css/img/ma QR shoppe.png" alt="qr-shopee">
+                        <div class="header__QR_shopee--apps">
+                            <img src="./assets/css/img/appstore.png" alt="apstore" class="header__QR_shopee--apps--store">
+                            <img src="./assets/css/img/googleplay.png" alt="apstore" class="header__QR_shopee--apps--store">
+                        </div>
+                       
+                    </div>
+                    
+                </li>
+    
+    
+    
+                <li class="header__navbar--item  gachngang"></li>
+                <li class="header__navbar--item header__navbar--item--link"><span class="ko-ket-noi">Kết nối</span> 
+                    <a href="https://www.facebook.com/" class="header__navbar--icon-link ">
+                        <i class="fa-brands fa-square-facebook facebook-integram"></i> 
+                    </a>
+                    <a href="https://www.facebook.com/" class="header__navbar--icon-link">
+                        <i class="fa-brands fa-instagram facebook-integram"></i>
+                    </a>
+                </li>
+               </ul>
+               <ul class="header__navbar--list" >
+    <!-- houver thong bao -->
+                <li class="header__navbar--item header__navbar--item--link"> 
+                    <a href="">
+                    <i class="fa-solid fa-bell"></i>
+                    Thông báo</a>
+                </li>
+                <li class="header__navbar--item header__navbar--item--link"> 
+                    <a href="">
+                        <i class="fa-solid fa-circle-question"></i>
+                        <a class ="header__navbar--item--doitac" href  ='#'>Trợ giúp</a>
+                    </a>
+                </li>
+                <li class="header__navbar--item">
+                   
+                        <!-- <a class="list-item_link"href="#"> -->
+                        <select class="custom-alection">
+                            <option value="">Tiếng việt</option>
+                            <option value="">English</option>
+                            </select>
+                        <!-- </a> -->
+                    
+                </li>
+                <li class="header__navbar--item" id="btn-dangki"><b >Đăng kí</b></li>
+                <li class="header__navbar--item  gachngang"></li>
+                <li class="header__navbar--item" id="btn-dangnhap"><b>Đăng nhập</b></li>
+               </ul>
+    
+            </nav>
+    
+    
+    
+            <!-- logo va thah tim kiem -->
+            <div class="logo-search">
+                <div class="logo-search_chirdren">
+                    
+                    <div class ="logo-search__logo">
+                        <i class="fa-solid fa-film "class="logo-search__logo__icon"></i>
+                        <!-- <i class="fa-solid fa-bag-shopping" class="logo-search__logo__icon" ></i> -->
+                        <a href="#" class="logo-search__logo__text">SeGay</a>
+                    </div>
+                </div>
+                <div class="logo-search_chirdren">
+                    <div class="input-search">
+                        <input type="text" placeholder="Bạn muốn xem phim gì?" id ="input" class="search-item">
+                        <button id= "btn-search" class="hover-serch"><i class="fa-solid fa-magnifying-glass"></i></button>
+    
+                    </div>
+                    <div class="logo-search__mathang">
+                         <ul class="list-item">
+                            <li class="list-item_item"><a class="list-item_link"href="#">Trang chủ</a></li>
+                            <li class="list-item_item"><a class="list-item_link"href="#">Truyền hình</a></li>
+                            <li class="list-item_item"><a class="list-item_link"href="#">HBO Go</a></li>
+                            <li class="list-item_item"><a class="list-item_link"href="#">Thể thao</a></li>
+                            <li class="list-item_item"><a class="list-item_link"href="#">Phim bộ</a></li>
+                            <li class="list-item_item"><a class="list-item_link"href="#">TV Show</a></li>
+                            <li class="list-item_item"><a class="list-item_link"href="#">Thiếu nhi</a></li>
+                            <li class="list-item_item"><a class="list-item_link"href="#">Phim lẻ</a></li>
+                            <li class="list-item_item"><a class="list-item_link"href="#">Annime</a></li>
+                            <li class="list-item_item"><a class="list-item_link"href="#">Âm nhạc</a></li>
+    
+                            <li class="list-item_item custom-alection">
+                                <!-- <a class="list-item_link"href="#"> -->
+                                <select class="custom-alection">
+                                    <option value="">Xem thêm</option>
+                                    <option value="">Phim Hành Động</option>
+                                    <option value="">Phim Tâm Lý Tình Cảm</option>
+                                    <option value="">Phim Hành Động Mỹ</option>
+                                    </select>
+                                <!-- </a> -->
+                            </li>
+     
+                            
+                    
+                    </div>
+                </div>
+               
+            </div>
+    
+        </div>
+        </header>
+    
+    <!-- Hết phân cua thanh 1 -->
+
+    <!-- Phần của Thanh 2 -->
+
+    
+<!-- modal  dang ki-->
+<div class="modal" id="modal11">
+    <div class="modal__overay">
+
+    </div>
+    <div class="modal__body">
+       
+        <form id="form_dangky" action="">
+            <div class="form-dangky">
+                <div class="form-dangky__container">
+                <div class="form-dangky__header">
+                    <h3 class="form-dangky__heading">Đăng kí</h3>
+                    <span class="form-dangky__btn" id ="DN_DK">Đăng nhập </span>
+                </div>
+            
+                <div class="form-dangky__group">
+                    <input type="email" name="email" class="form-dangky__input" id ="inputDangKi" placeholder=" Email của bạn">
+                    <div id ="thongbaoEmail"></div>
+                </div>
+                <div class="form-dangky__group">
+                    <input type="password" class="form-dangky__input" id = "passDangKi" placeholder=" Nhập mật khẩu">
+                </div>
+                <div class="form-dangky__group">
+                    <input type="password" class="form-dangky__input" id = "passAgainDangKi" placeholder=" Nhập lại mật khẩu">
+                </div>
+            
+            
+            </div>
+            <div class="form-dangky__CS">
+                <p class="form-dangky__Chinhsach">Bằng việc đăng kí, bạn đã đồng ý với SeGay về <br>
+                    <a class= "form-dangky__Chinhsach__link" href ="#">Điều khoản dịch vụ </a> &
+                    <a  class= "form-dangky__Chinhsach__link" href ="#">Chính sách bảo mật</a>
+            </div>
+            
+            <div     class="form-dangky__control">
+                <button class="btn" id="btn-trolai">TRỞ LẠI</button>
+                <button class="btn btn--dangki"id="btnDangKi" id ="nutDangKi"> ĐĂNG KÍ </button>
+
+            </div>
+            </div>
+            
+
+
+
+            <div class="form-dangky__mangxahoi">
+                <a href ="https://www.facebook.com/" 
+                 class="btn btn__mangxahoi">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span>Kết nối với facebook</span>
+                </a>
+                <a href="https://google.com/"
+                    class="btn btn__mangxahoi google">
+                    <i class="fa-brands fa-google"></i>
+                   <span>Kết nối với google </span>
+                </a>
+
+            </div>
+        
+        </form>
+    </div>
+</div>
+
+<!-- xong phan modal dangki -->
+
+
+<!-- modal dang nhap -->
+<div class="modal-DN" id="modal111">
+    <div class="modal__overay">
+
+    </div>
+    <div class="modal__body">
+        
+
+            <div class="form-dangky">
+                <div class="form-dangky__container">
+                <div class="form-dangky__header">
+                    <h3 class="form-dangky__heading">Đăng nhập</h3>
+                    <span class="form-dangky__btn " id="dk_dn">Đăng kí </span>
+                </div>
+                <div class="form-dangky__group">
+                    <input type="text" class="form-dangky__input" placeholder=" Email của bạn">
+
+                </div>
+                <div class="form-dangky__group">
+                    <input type="password" class="form-dangky__input" placeholder=" Nhập mật khẩu">
+                </div>
+               
+            </div>
+            <div class="form-dangky__CS">
+                <p class="form-dangky__Chinhsach">Bằng việc đăng nhập, bạn có thể thư giãn cùng SeGay về những bộ phim tuyệt vời <br>
+                    
+            </div>
+            
+            <div     class="form-dangky__control">
+                <button class="btn" id="btn-trolai1">TRỞ LẠI</button>
+                <button class="btn btn--dangki"> ĐĂNG NHẬP </button>
+
+            </div>
+            </div>
+            
+<!-- icon -->
+            <div class="form-dangky__mangxahoi">
+                <a href ="https://www.facebook.com/" 
+                 class="btn btn__mangxahoi">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span>Kết nối với facebook</span>
+                </a>
+                <a href="https://google.com/"
+                    class="btn btn__mangxahoi google">
+                    <i class="fa-brands fa-google"></i>
+                   <span>Kết nối với google </span>
+                </a>
+
+            </div>
+        
+
+    </div>
+</div>
+<!-- modal dang nhap -->
+    <!-- Hết phần của Thanh 2 -->
+
+   
+
+    <!-- Hàng: video -->
+    <div class="video">
+        <!-- Link ảnh bên trái -->
+        <div class="video-pic-left">
+            <a href="https://www.facebook.com/fptplay/posts/pfbid0ETrLrzxAHqHEbf1rYAqrT312Q5QbqPzztGKDgeBYqhDKMT5HE9HcKFTmmtGfFkfMl">
+                <img src="./Photo/video-pic-left.jpg" alt="photo/video-pic-left.jpg">
+            </a>
+        </div>
+        <!-- Video ở trung tâm -->
+        <div class="video-emb">
+            <video width="1100" height="650" controls>
+                <source src="./Video/luc-luong-dac-biet.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+        </div>
+        <!-- Link ảnh bên phải -->
+        <div class="video-pic-left">
+            <a href="https://www.facebook.com/fptplay/posts/pfbid0ETrLrzxAHqHEbf1rYAqrT312Q5QbqPzztGKDgeBYqhDKMT5HE9HcKFTmmtGfFkfMl">
+                <img src="./Photo/video-pic-left.jpg" alt="photo/video-pic-left.jpg">
+            </a>
+        </div>
+    </div>
+
+
+    <!-- Hàng episode -->
+    <div class="episode">
+        <h2>Tập phim</h2>
+        <p class="episode-wath">Tập 1</p>
+        <ul class="episode-list">
+            <li>Tập 1</li>
+            <li>Tập 2</li>
+            <li>Tập 3</li>
+            <li>Tập 4</li>
+            <li>Tập 5</li>
+        </ul>
+    </div>
+
+
+    <!-- Hàng: infor -->
+    <div class="infor">
+        <!-- Thông tin phim bên trái -->
+        <div class="infor-left">
+            <!-- Ảnh phim -->
+            <div class="infor-left-picture">
+                <img src="./Video/luc-luong-dac-biet.jpeg" alt="cu-roi-tu-than.jpn">
+            </div>
+            <!-- Thông tin phim -->
+            <div class="infor-left-content">
+                <!-- Tên phim -->
+                <h3>LỰC LƯỢNG ĐẶC BIỆT</h3>
+                <p>Special Forces</p>
+                <!-- Follow - Share icon -->
+                <div class="follow-share">
+                    <!-- Follow icon -->
+                    <div class="follow">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <p>Theo dõi</p>
+                    </div>
+                    <!-- Share icon -->
+                    <div class="share">
+                        <ion-icon name="share-social-outline"></ion-icon>
+                        <p>Chia sẻ</p>
+                    </div>
+                </div>
+                <h4>Nội dung:</h4>
+                <p>Special Force là một game bắn súng góc nhìn thứ nhất trực tuyến miễn phí được phát 
+                    triển bởi nhà phát triển game Dragonfly của Hàn Quốc</p>
+            </div>
+            <!-- Thông tin phim bên phải -->
+            <div class="infor-right">
+                <div class="left">
+                    <p>Số tập<br>
+                        Thời lượng<br>
+                        Đạo diễn<br>
+                        Diễn viên<br><br>
+                        Quốc gia<br>
+                        Thể loại<br>
+                        Phát hành<br>
+                    </p>
+                </div>
+                <div class="right">
+                    <p>1/10<br>
+                        107 phút<br>
+                        Scott Mann<br>
+                        Grace Caroline Currey, Virginia Gardner, v.v<br>
+                        Mỹ<br>
+                        Hồi hộp<br>
+                        2022<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Comments -->
+    <div class="comments" id="comments">
+        <p>Bình luận</p>
+        <!-- Đếm bình luận -->
+        <div class="counter">
+            <p>68 bình luận</p>
+            <p class="right">Sắp xếp theo:</p>
+            <select class="option">
+                <option value="newest">Mới nhất</option>
+                <option value="like">Nhiều like nhất</option>
+                <option value="Oldest">Cũ nhất</option>
+            </select>
+        </div>
+        <!-- Ghi đăng nhập bình luận -->
+        <span>
+            Vui lòng
+            <a href="#">đăng nhập</a>
+            tài khoản FPT Play để sử dụng Bình luận
+        </span>
+        <div class="div-menber" id="div-menber">
+            <!-- Menber 1 -->
+            <div class="menber">
+                <div class="menber-logo">
+                    <ion-icon name="person"></ion-icon>
+                </div>
+                <div class="menber-infor">
+                    <span class="menber-name" style="color: white" ;>Thanh Thanh</span>
+                    <span class="menber-time">30 năm về trước</span>
+                    <p style="color: #9b9b9b">Phim rất hay, tiết tấu châm quá chiếu ít mất cả hứng</p>
+                </div>
+            </div>
+            <div class="menber-icon">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span class="number-like">1</span>
+                <i class="fa-solid fa-message"></i>
+                <span class="number-com">0</span>
+                <i class="fa-solid fa-flag"></i>
+            </div>
+            <!-- Menber 2 -->
+            <div class="menber">
+                <div class="menber-logo">
+                    <ion-icon name="person"></ion-icon>
+                </div>
+                <div class="menber-infor">
+                    <span class="menber-name" style="color: white" ;>Khoa Panda</span>
+                    <span class="menber-time">15 năm về trước</span>
+                    <p style="color: #9b9b9b">Phim không hay, tiết tấu châm quá chiếu ít mất cả hứng</p>
+                </div>
+            </div>
+            <div class="menber-icon">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span class="number-like">1</span>
+                <i class="fa-solid fa-message"></i>
+                <span class="number-com">0</span>
+                <i class="fa-solid fa-flag"></i>
+            </div>
+            <!-- Menber 3 -->
+            <div class="menber">
+                <div class="menber-logo">
+                    <ion-icon name="person"></ion-icon>
+                </div>
+                <div class="menber-infor">
+                    <span class="menber-name" style="color: white" ;>Đức Chuối</span>
+                    <span class="menber-time">1 năm về trước</span>
+                    <p style="color: #9b9b9b">Phim không có cảnh *** à admin ơi ? tiết tấu châm quá chiếu ít mất cả hứng</p>
+                </div>
+            </div>
+            <div class="menber-icon">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span class="number-like">1</span>
+                <i class="fa-solid fa-message"></i>
+                <span class="number-com">0</span>
+                <i class="fa-solid fa-flag"></i>
+            </div>
+            <!-- Menber 4 -->
+            <div class="menber">
+                <div class="menber-logo">
+                    <ion-icon name="person"></ion-icon>
+                </div>
+                <div class="menber-infor">
+                    <span class="menber-name" style="color: white" ;>Thụ Đa</span>
+                    <span class="menber-time">6 tháng về trước</span>
+                    <p style="color: #9b9b9b">tiết tấu châm quá chiếu ít mất cả hứng tiết tấu châm quá chiếu ít mất cả hứng</p>
+                </div>
+            </div>
+            <div class="menber-icon">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span class="number-like">1</span>
+                <i class="fa-solid fa-message"></i>
+                <span class="number-com">0</span>
+                <i class="fa-solid fa-flag"></i>
+            </div>
+            <!-- Menber 4 -->
+            <div class="menber">
+                <div class="menber-logo">
+                    <ion-icon name="person"></ion-icon>
+                </div>
+                <div class="menber-infor">
+                    <span class="menber-name" style="color: white" ;>Cường Trần</span>
+                    <span class="menber-time">6 tháng về trước</span>
+                    <p style="color: #9b9b9b">tiết tấu châm quá chiếu ít mất cả hứng</p>
+                </div>
+            </div>
+            <div class="menber-icon">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span class="number-like">1</span>
+                <i class="fa-solid fa-message"></i>
+                <span class="number-com">0</span>
+                <i class="fa-solid fa-flag"></i>
+            </div>
+            <!-- Menber 5 -->
+            <div class="menber">
+                <div class="menber-logo">
+                    <ion-icon name="person"></ion-icon>
+                </div>
+                <div class="menber-infor">
+                    <span class="menber-name" style="color: white" ;>Vũ Hoàng</span>
+                    <span class="menber-time">6 tháng về trước</span>
+                    <p style="color: #9b9b9b">Ad đã up vietsub tập 7, mời các bạn đón xem! Lịch chiếu: Phim được phát sóng vào
+                        thứ 2, 3 hàng tuần trên FPT PLAY.</p>
+                </div>
+            </div>
+            <div class="menber-icon">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span class="number-like">1</span>
+                <i class="fa-solid fa-message"></i>
+                <span class="number-com">0</span>
+                <i class="fa-solid fa-flag"></i>
+            </div>
+            <!-- Menber 6 -->
+            <div class="menber">
+                <div class="menber-logo">
+                    <ion-icon name="person"></ion-icon>
+                </div>
+                <div class="menber-infor">
+                    <span class="menber-name" style="color: white" ;>Lâm Đức</span>
+                    <span class="menber-time">6 tháng về trước</span>
+                    <p style="color: #9b9b9b">Ipsum20</p>
+                </div>
+            </div>
+            <div class="menber-icon">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span class="number-like">1</span>
+                <i class="fa-solid fa-message"></i>
+                <span class="number-com">0</span>
+                <i class="fa-solid fa-flag"></i>
+            </div>
+        </div>
+
+        <!-- Menber tạm -->
+        <div class="new-menber-comment" id="new-menber-comment">
+            <div class="menber">
+                <div class="menber-logo">
+                    <ion-icon name="person"></ion-icon>
+                </div>
+                <div class="menber-infor">
+                    <span class="menber-name" style="color: white" ;>Ẩn danh</span>
+                </div>
+            </div>
+            <textarea name="Text" id="menber-input" cols="120" rows="2"></textarea>
+            <button class="send" id="guiAnDanh">Gửi ẩn danh</button>
+        </div>
+    </div>
+
+
+
+
+    <!-- Hàng footer -->
+    <div class="footer">
+        <!-- Cột bên trái -->
+        <div class="footer-left">
+            <p><img src="./Photo/footer-logofpt.png" alt=""></p>
+            <p><img src="./Photo/footer-dathongbao.png" alt=""></p>
+            <p><img src="./Photo/footer-dmca.png" alt=""></p>
+        </div>
+        <!-- Cột trung tâm -->
+        <div class="footer-center">
+            <div class="footer-center-up">
+                <div class="left">
+                    <span>Gói data</span>
+                    <span>Quảng cáo</span>
+                    <span>Dịch vụ</span>
+                    <span>Điều khoản</span>
+                    <span>Chính sách</span>
+                    <span>Liên hệ</span>
+                    <span>Cửa hàng</span>
+                </div>
+                <div class="right">
+                    <img src="./Photo/footer-icon-web.png" alt="">
+                    <img src="./Photo/footer-icon-computer.png" alt="">
+                    <img src="./Photo/footer-icon-apple.png" alt="">
+                    <img src="./Photo/footer-icon-androi.png" alt="">
+                    <img src="./Photo/footer-icon-box.png" alt="">
+                </div>
+            </div>
+            <div class="footer-center-down">
+                <hr>
+                <p>Công ty Cổ phần Viễn Thông FPT - Người đại diện: Ông Hoàng Việt Anh</p>
+                <p>Trụ sở: Tầng 8, tòa nhà FPT Tower, số 10 Phạm Văn Bạch, Cầu Giấy, Hà Nội</p>
+                <p>Điện thoại: 19006600. Email: hotrofptplay@fpt.com.vn</p>
+                <p>Số giấy chứng nhận đăng ký kinh doanh: 0101778163 do Sở Kế Hoạch Đầu Tư Thành Phố Hà Nội cấp vào ngày 28/07/2005</p>
+                <p>Giấy phép Cung cấp Dịch vụ Phát thanh, Truyền hình trên mạng Internet số 568/GP-BTTTT cấp ngày 7/12/2020.</p>
+            </div>
+
+        </div>
+        <!-- Cột bên phải -->
+        <div class="footer-right">
+            <p><img src="./Photo/footer-icon-fb.png" alt="incon-fbook"></p>
+            <p><img src="./Photo/footer-icon-hotro.png" alt=""></p>
+            <p><img src="./Photo/footer-icon-phone.png" alt=""></div></p>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- ionic -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- aware -->
+    <script src="https://kit.fontawesome.com/065d3f40a7.js" crossorigin="anonymous"></script>
+    
+    <!-- server -->
+    
+    <!-- js -->
+    <script src="./app2.js"></script>
+</body>
+</html>

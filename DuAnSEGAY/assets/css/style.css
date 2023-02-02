@@ -1,0 +1,497 @@
+.header {
+   width: 100%;
+    background-image: linear-gradient(0,#151414,#0e0e0d);
+    position: fixed;
+    background-color: #0e0e0d;
+    height: 125px;
+    z-index: 3;
+
+
+    
+}
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+/* làmmaast dấu chấm ở các thẻ li con ul */
+.header__navbar--list{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 4px;
+   
+  
+}
+/* cho các li lên cùng một hàng */
+.header__navbar--item{
+    display: inline-block;
+  color: var(--white-color);
+    font-size: 10px;
+    margin: 0 6px;
+    position: relative;
+   
+}
+.header__navbar--item:hover{
+    opacity: 0.7;
+    /* hien hinh ban tay */
+    cursor:pointer;
+}
+
+.header__navbar--item a{
+    text-decoration: none;
+}
+.header__navbar--item a:hover{
+
+}
+
+.ko-ket-noi{
+    color: var (--white-color);
+    opacity: 1;
+    cursor: text;
+}
+/*  cho các ul lên cùng một hàng */
+
+/* bo gach chan the a */
+.header__navbar--item--link a {
+    text-decoration: none;
+    color: white;
+}
+.facebook-integram{
+   
+    font-size: 12px;
+
+
+}
+.logo-search__logo i{
+    color: #fa5031;
+}
+
+
+.gachngang{
+    height: 14px;
+    content: "";
+    border-left: 2px solid rgb(250 111 95);
+    
+    
+}
+.header__navbar--icon-link{
+    width: 100px;
+    list-style: none;
+    margin-left: 5px;
+}
+/* doitacshoppe */
+.header__navbar--item--doitac{
+    color: white;
+}
+
+
+
+
+
+/* header-qr code */
+.header__QR_shopee{
+    position: absolute;
+    width:160px;
+    background-color: white;
+    text-align: center;
+    /* an the tai ung dung */
+    display: none;
+    margin-top: 10px;
+    height:190px;
+}
+
+
+.header__QR_shopee img{
+    width: 160px;
+}
+.header__QR_shopee--apps {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+img.header__QR_shopee--apps--store{
+    width:60px;
+    
+}
+
+
+
+
+img.header__QR_shopee--apps--pay{
+    width:60px;
+    margin-left:-10px;
+   position: absolute;
+   bottom:-20px;
+   left:20px;
+    
+}
+/* hover tai ung dung */
+.header__navbar--item--hasQR:hover .header__QR_shopee{
+    display:block;
+    background-color: white;
+    opacity: 1;
+    z-index: 1;
+
+
+}
+.header__navbar--item--hasQR:hover{
+    opacity: 1;
+}
+.list-item_item .list-item_link:hover{
+    color:#fa5031;
+}
+
+
+/* hover thong bao_______>chua lamm */
+
+
+
+
+/* formdangky */
+.form-dangky{
+    width: 600px;
+    margin: 0 20px;
+    margin-bottom: 50px;
+
+}
+.form-dangky__header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.form-dangky__heading{
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+.form-dangky__btn{
+    font-size: 1,5rem;
+    color: var( --color-chudao);
+    
+}
+.form-dangky__group{
+   
+    
+}
+.form-dangky__input{
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* chu chinh sach */
+.form-dangky__CS{
+    text-align: center;
+}
+.form-dangky__Chinhsach__link{
+    text-decoration: none;
+    color:var(--color-chudao);  
+}
+
+
+
+/* hovel nut dang ki */
+
+
+
+
+/* ket noi mangxahoi */
+/* chua hoan thien   */
+.form-dangky__mangxahoi{
+    background-color: rgb(240, 228, 214);
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.form-dangky__mangxahoi a{
+      
+        text-decoration: none;
+        border: 1px solid rgb(237, 229, 229);
+        color: var(--white-color);
+        background-color:rgba(25,119,242,1);
+        border-radius: 5px;
+       
+     
+}
+.btn.btn__mangxahoi{
+    margin: 20px 30px;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.btn.btn__mangxahoi.google{
+    background-color: aliceblue;
+    color: rgb(39, 38, 38);
+    border-radius: 5px ;
+    border: 1px solid white;
+}
+.btn.btn__mangxahoi span{
+    margin-top: 5px;
+    margin-left: 10px;
+   
+}
+.btn.btn__mangxahoi i{
+    margin-top: 5px;
+  font-size: 25px;
+    display: inline-block;
+
+}
+
+
+
+/* thanh tim kiem va lo go segay */
+.logo-search{
+   
+    display: flex;
+    width:100%;
+}
+.logo-search_chirdren{
+    /* margin-left: 200px; */
+    
+}
+.logo-search__logo{
+display: flex;
+color: var(--white-color);
+position: relative;
+    display: flex;
+    
+
+}
+.logo-search__logo i{
+    display: inline-block;
+    /* margin-left: 10px; */
+    width: 80px;
+    font-size: 50px;
+    
+
+}
+.logo-search__logo__text{
+    margin-top: 8px;
+    font-size: 30px;
+    /* margin-left: 30px; */
+    position: absolute;
+    left:50px;
+    text-decoration: none;
+    color: #fa5031;
+   
+}
+
+/* item tren thanh tim kiem */
+.input-search{
+    
+    display: flex;
+    position: relative;
+}
+
+.input-search input{
+    height: 35px;
+    position: absolute;
+    width: 1000px;
+    margin-left: 100px;
+    border-radius: 5px solid rgb(14, 13, 13);
+    padding-left: 30px;
+    background-color: rgb(201, 194, 190);
+}
+.input-search button {
+    position: absolute;
+    left:1000px;
+    padding-top: 6px;
+    color: white;
+    background-color: #d25a5a;
+    height: 26px;
+    width: 50px;
+    top: 4.5px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #f1efef ;
+    cursor: pointer;
+            
+    
+}
+
+/*  */
+.logo-search__mathang{
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.logo-search__mathang .list-item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: rgb(185, 180, 180);
+    font-size: 12px;
+    margin-left: 52px;
+    width: 1000px;
+    justify-content: space-around;
+    
+    
+
+}
+.list-item_item{
+    margin: 3px 8px ;
+}
+.list-item_link{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.custom-alection{
+    background-color: #0e0e0d;
+    color:#f9ebd7;
+    border-radius: 2px;
+    border: none  black;
+    }
+    .custom-alection:hover{
+        color: #fa5031;
+    }
+
+
+
+
+/* phan container */
+.heading_carosel{
+    background-color: #242323;
+     
+
+}
+
+/* big-side */
+.big-slide{
+    
+    /* margin-top: 20px; */
+    padding:150px 100px 50px 100px;
+    width: 100%;
+    background-color: #242323;
+}
+.big-silde_one{
+    width:1200px;  
+    height: 500px; 
+    
+}
+.img-heading{
+    height:500px;
+}
+
+
+
+
+
+
+/* main */
+.main{
+    /* width: 100%; */
+    background-color: rgb(36, 35, 35);
+}
+.main_small-slide{
+    width:100%;
+    color: var(--white-color);
+    
+}
+.main_small-slide p{
+    margin-left: 120px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.list-film{
+    /* display: flex; */
+}
+.list-film-main{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.item-film{
+    width:230px;
+    text-align: center;
+    /* margin-left: 10px;*/
+    margin-bottom: 20px;
+    
+}
+.item-film__link{
+    text-decoration: none;
+    color: var(--white-color);
+}
+.item-film__link:hover{
+    color: #fa5031;
+}
+
+
+
+
+
+
+/* footer */
+/* Định dạng thanh footer */
+.footer {
+    width: 100%;
+    /* width: 1200px; */
+    padding-left: 5%;
+    padding-top: 50px;
+    background-color: #000;
+    height: 350px;
+}
+/* Thanh footer-left */
+.footer .footer-left {
+    position: absolute;
+    width: 200px;
+}
+.footer .footer-left p {
+    margin: 25px;
+    margin-top: 0px;
+}
+/* Thanh footer-center */
+.footer .footer-center {
+    position: absolute;
+    width: 800px;
+    margin-left: 200px;
+    color: #9b9b9b;
+}
+
+/* .footer .footer-center .footer-center-up {
+    position: relative;
+} */
+.footer .footer-center .footer-center-up .left {
+    position: absolute;
+}
+.footer .footer-center .footer-center-up .right {
+    /* position: absolute; */
+    margin-left: 600px;
+
+}
+.footer .footer-center .footer-center-up .right img {
+    margin: 0px 5px;
+}
+.footer .footer-center .footer-center-up .left span {
+    margin: 0px 5px;
+}
+
+
+
+.footer .footer-center .footer-center-down p {
+    margin: 0px 0px 10px 0px;
+}
+.footer .footer-center .footer-center-down hr {
+    border: 1px solid #4e4e4e;
+    margin: 5px 0px;
+}
+/* footer footer-right */
+.footer .footer-right {
+    width: 200px;
+    margin-left: 1000px;
+}
+.footer .footer-right p {
+    margin: 10px;
+    margin-top: 0px;
+}

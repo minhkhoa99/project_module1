@@ -1,0 +1,173 @@
+:root{
+    --white-color:#fff;
+    --blac-color:#000;
+    --text-color:#333;
+    --color-chudao:#ee4c2d;
+
+}
+
+*{
+    box-sizing: inherit;
+}
+html{
+    /*  roi sau do lay 1rem la 10px*/
+    font-size: 62,5%;
+    font-size:  1,6 rem;
+    font-family: 'Roboto', sans-serif;    
+    box-sizing: border-box;                          
+}
+
+/* risponsite :tich hop gioa dien */
+/* 1200 thi toi da la 1200, con nho hon 1200 thi no se hien 100% */
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    /* tu dong can giua khoi nay so voi khoi khac */
+    margin:0 auto;
+   
+}
+.grid__full-width{
+  width:100%
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* xo ra xem them */
+
+
+
+/* modal dang ki*/
+.modal {
+     position: fixed;
+     top:0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     display: flex;
+    
+     display: none;
+}
+#modal11{
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+   
+    display: none;
+
+}
+
+
+.modal__overay{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.4);
+   
+}
+.modal__body{                                                                                                                                  
+    background: rgb(252, 252, 252);
+    margin: auto;
+   position: relative;
+   border-radius: 5px;
+
+}
+
+
+
+
+/* modal dang nhap */
+.modal-DN{
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    /* click thi xo ra */
+    display: none;
+}
+#modal111{
+   position: fixed;
+   top:0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   display: flex;
+   /* click thi xo ra */
+   display: none;
+
+}
+
+
+.modal__overay{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color:rgba(0, 0, 0, 0.4);
+  
+}
+.modal__body{
+                                                                                                                                     
+   background: rgb(252, 252, 252);
+   margin: auto;
+  position: relative;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+/* nut tro lai dang ki */
+.form-dangky__control{
+    
+    padding-left:315px;
+    margin-top: 80px;
+}
+.form-dangky__control .btn {
+   border-radius: 5px;
+   min-width: 130px;
+   height: 35px;
+   cursor: pointer;
+   background-color: white;
+   border: 1px solid rgb(234, 228, 228);
+ 
+}
+.form-dangky__control .btn:hover{
+    opacity:0.7;
+
+}
+
+.btn.btn--dangki{
+    background-color: #ee4c2d;
+    color: white;
+    margin-left: 10px;
+    /* cursor: pointer; */
+};
+
+
+/* item tren thanh tim kiem */
+
+
+/* hover gio hang  */
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="style_login.css"> -->
-    <link rel="stylesheet" href="../CSS/style_login.css">
+    <link rel="stylesheet" href="./AdminProject/CSS/style_login.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <section class="background-section">
-    
+
         <div class="container">
-    
-    
+
+
             <div class="row">
-    
+
                 <div class="row-md-6 col-lg-4" id="heading">
                     <h3 class="text-center"><i>SEGAY ADMIN</i> </h3>
-    
+
                     <div class="login-wrap">
-    
-    
+
+
                         <form class="sign-form" id="form" onsubmit="login()">
-    
+
                             <div class="form-group">
-    
+
                                 <input type="text" class="form-control-1" id="username" placeholder="User name">
                             </div>
-                            
+
                             <div class="form-group">
-    
+
                                 <input type="password" id="password" class="form-control-2 pass" placeholder="Password">
                                 <span class="fafa" toggle="#password-feild"></span>
-    
+
                             </div>
                             <div id="messenge1">The account or Password is incorrect, please try again</div>
 
-    
+
                             <div class="form-group">
-    
+
                                 <button type="submit" class="form-control-3" id="btn">SIGN IN</button>
                             </div>
                             <div class="check-remember">
-    
+
                                 <div class="check-box-wrap">
-    
+
                                     <input type="checkbox" id="checkbox" checked>
-    
+
                                     <label class="check-box" style="color: white ;">Remember Me
                                     </label>
-    
+
                                 </div>
                             </div>
-    
-    
+
+
                         </form>
-    
+
                     </div>
-    
+
                 </div>
             </div>
-    
+
         </div>
-    
-    <script src="../JS/login_admin.js"></script>
-   <!-- <script src="./login_admin.js;"></script> -->
-   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <script src="../JS/login_admin.js"></script>
+        <!-- <script src="./login_admin.js;"></script> -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
+
 </html>
